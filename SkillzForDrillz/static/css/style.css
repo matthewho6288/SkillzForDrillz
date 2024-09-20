@@ -6,7 +6,8 @@
 
 body {
     min-height: 100vh;
-    background-color: #003478;
+    background-color: #1f477c;
+    /* background-color: black; */
     color: whitesmoke;
     font-size: 3rem;
     display: flex;
@@ -15,7 +16,7 @@ body {
 
 nav {
     padding: 1rem;
-    background-color: #44B78B;
+    background-color: #8abde1;
     color: white;
     font-size: 2.5rem;
 }
@@ -23,11 +24,12 @@ nav {
 main {
     flex-grow: 1;
     display: grid;
-    place-content: center;
+    place-content: normal;
+    text-align: left;
 }
 h1, 
 p {
-    text-align: center;
+    text-align: left;
 }
 
 a {
